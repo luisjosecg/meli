@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/buscadorConstraint"
+    android:layout_width="match_parent"
+    android:layout_height="42dp"
+    android:paddingStart="17dp"
+    android:paddingEnd="17dp"
+    android:background="@drawable/outlined_box_buscador"
+    tools:ignore="SpUsage">
+
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/icBusqueda"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="17dp"
+        android:src="@drawable/ic_search_gray"
+        app:layout_constraintBottom_toBottomOf="@+id/textTiewBuscadorClub"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textTiewBuscadorClub" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/textTiewBuscadorClub"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:background="@drawable/outlined_box_buscador"
+        android:focusable="false"
+        android:layout_marginStart="10dp"
+        android:gravity="center_vertical"
+        android:hint="@string/buscar"
+        android:textColorHint="@color/gray"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/icBusqueda"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
