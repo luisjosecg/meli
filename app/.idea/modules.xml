@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1997893421/Mercado_Libre.iml" filepath="$PROJECT_DIR$/.idea/modules/-1997893421/Mercado_Libre.iml" group="Mercado_Libre" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app.iml" filepath="$PROJECT_DIR$/.idea/modules/app.iml" group="Mercado Libre/app" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/2052739941/buscador.iml" filepath="$PROJECT_DIR$/.idea/modules/2052739941/buscador.iml" group="Mercado Libre/buscador" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/552749115/detalle.iml" filepath="$PROJECT_DIR$/.idea/modules/552749115/detalle.iml" group="Mercado Libre/detalle" />
+    </modules>
+  </component>
+</project>

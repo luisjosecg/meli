@@ -50,4 +50,7 @@ dependencies {
 
     implementation project (':buscador')
 
+    //Test Memoty Leak's
+    debugImplementation 'com.squareup.leakcanary:leakcanary-android:1.5.4'
+
 }
